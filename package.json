@@ -1,0 +1,21 @@
+{
+  "name": "dot-telegram-mirror",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "exports": {
+    "./relay": "./src/dot-relay.mjs",
+    "./mirror": "./src/dot-mirror.mjs",
+    "./browser": "./src/dot-browser-mcp.mjs",
+    "./runtime": "./src/runtime.mjs"
+  },
+  "scripts": {
+    "test": "node --import ./test/setup.mjs --test test/*.test.mjs",
+    "demo": "node --import ./test/setup.mjs examples/offline.mjs",
+    "check:public": "node scripts/check-public.mjs"
+  }
+}

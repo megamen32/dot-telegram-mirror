@@ -1,0 +1,15 @@
+{
+  "source": "https://github.com/megamen32/universal-userio",
+  "license": "MIT",
+  "snapshot": "2026-11-01",
+  "sha256": {
+    "dot-relay.mjs": "f1766ae15efc449014d4c9853b31d5de3bb4e2a45b0892657500cfd34b559ca5",
+    "dot-mirror.mjs": "045f91fca22ac5533b944903cbaf6296a1321585df3887e8d1ac53aa6e43bc19",
+    "dot-browser-page.mjs": "5a290b3dc7dd718309c925f169c54bd7dfe7a5651410bbe620318f8ea4b1e751",
+    "dot-browser-mcp.mjs": "e630541359484d07f80ac4a64f232f755f8755f106ac356dd30fbf03958ed63d",
+    "dot-relay.test.mjs": "ababad1915a2506a1217c27b8aca7f2dee39d393546d10353ce2e90979294f11",
+    "dot-mirror.test.mjs": "ca8b5b9d1f96f1df26c8968bea588c297cdcc82083ca1d98ee1edf9cadef5bbf",
+    "dot-browser-mcp.test.mjs": "8e8fb9fbc5506557470511b2ddc9920b2ce73c314f7429c2c0c8d4eeb46968a0"
+  },
+  "note": "New standalone repository, source history and runtime data excluded."
+}
